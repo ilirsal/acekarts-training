@@ -10,6 +10,13 @@
 </head>
 <body>
 
+<script>
+  // 🚨 Block access if not logged in
+  if (localStorage.getItem('loggedIn') !== 'true') {
+    window.location.href = 'login.html';
+  }
+</script>
+
   <!-- Mobile Sidebar Toggle -->
   <button class="mobile-toggle" id="sidebarToggle" aria-label="Toggle Sidebar">
     <i class="fas fa-bars"></i>

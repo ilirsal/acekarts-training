@@ -8,6 +8,11 @@
   <script defer src="scripts/login.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
+    body {
+      background: #111;
+      font-family: Arial, sans-serif;
+    }
+
     .login-container {
       max-width: 400px;
       margin: 80px auto;
@@ -51,18 +56,11 @@
       background: #ff4d5a;
     }
 
-    <div class="login-container">
-  <h2>Login</h2>
-
-  <input type="text" id="username" placeholder="Username" />
-  <input type="password" id="password" placeholder="Password" />
-
-  <!-- 🔻 Error message styled and ready -->
-  <p class="login-error" id="loginError">Invalid username or password</p>
-
-  <button id="loginBtn">Login</button>
-</div>
-
+    .login-error {
+      color: #ff4d5a;
+      display: none;
+      margin-bottom: 16px;
+      text-align: center;
     }
   </style>
 </head>
@@ -71,7 +69,8 @@
   <div class="login-container">
     <h2><i class="fas fa-lock"></i> Staff Login</h2>
 
-    <div class="login-error" id="loginError">Incorrect username or password.</div>
+    <!-- error message -->
+    <div class="login-error" id="loginError">❌ Incorrect username or password</div>
 
     <input type="text" id="username" placeholder="Username" autocomplete="off" />
     <input type="password" id="password" placeholder="Password" />

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ace Karts Training Portal</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script defer src="scripts/scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Mobile Sidebar Toggle -->
+  <button class="mobile-toggle" id="sidebarToggle" aria-label="Toggle Sidebar">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Theme Switch Toggle -->
+  <button class="theme-toggle" id="themeToggle" title="Toggle Light/Dark Mode" aria-label="Toggle Theme">
+    <i class="fas fa-sun"></i>
+  </button>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><i class="fas fa-flag-checkered"></i></div>
+    <ul>
+      <li><a href="#intro"><i class="fas fa-info-circle"></i><span> Introduction</span></a></li>
+      <li><a href="#morning-checks"><i class="fas fa-clipboard-check"></i><span> Morning Checks</span></a></li>
+      <li><a href="#track-safety"><i class="fas fa-helmet-safety"></i><span> Track Safety</span></a></li>
+      <li><a href="#staff-conduct"><i class="fas fa-user-tie"></i><span> Staff Conduct</span></a></li>
+      <li><a href="#emergencies"><i class="fas fa-triangle-exclamation"></i><span> Emergencies</span></a></li>
+      <li><a href="#operations"><i class="fas fa-gears"></i><span> Operations</span></a></li>
+      <li><a href="#customer-service"><i class="fas fa-smile"></i><span> Customer Service</span></a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <header class="site-header">
+      <div class="banner-container">
+        <img src="images/logo1.svg" alt="Ace Karts Logo" class="banner-logo" />
+        <h1 class="banner-title">Ace Karts</h1>
+        <p class="banner-subtitle">Training Portal</p>
+      </div>
+    </header>
+
+    <section class="container content-wrapper">
+      <div class="module-grid">
+
+        <!-- Module Cards -->
+        <div class="module-card" data-link="introduction.html" id="intro">
+          <h2><i class="fas fa-info-circle"></i> 1. Introduction</h2>
+          <p>Learn about Ace Karts’ history, vision, and our commitment to safety.</p>
+        </div>
+
+        <div class="module-card" data-link="morning-checks.html" id="morning-checks">
+          <h2><i class="fas fa-clipboard-check"></i> 2. Morning Checks</h2>
+          <p>Step-by-step guide to prepare Ace Karts for the day.</p>
+        </div>
+
+        <div class="module-card" data-link="track-safety.html" id="track-safety">
+          <h2><i class="fas fa-helmet-safety"></i> 3. Track Safety</h2>
+          <p>Flag signals, marshal duties, and keeping the race safe.</p>
+        </div>
+
+        <div class="module-card" data-link="staff-conduct.html" id="staff-conduct">
+          <h2><i class="fas fa-user-tie"></i> 4. Staff Conduct</h2>
+          <p>Professional standards that keep operations smooth and safe.</p>
+        </div>
+
+        <div class="module-card" data-link="emergencies.html" id="emergencies">
+          <h2><i class="fas fa-triangle-exclamation"></i> 5. Emergencies</h2>
+          <p>How to handle mechanical failures and on-track incidents.</p>
+        </div>
+
+        <div class="module-card" data-link="operations.html" id="operations">
+          <h2><i class="fas fa-gears"></i> 6. Operations</h2>
+          <p>Managing booking systems, sessions, and race flow.</p>
+        </div>
+
+        <div class="module-card" data-link="customer-service.html" id="customer-service">
+          <h2><i class="fas fa-headset"></i> 7. Customer Service</h2>
+          <p>Delivering a safe, friendly, and unforgettable experience.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>&copy; 2025 Ace Karts Training Portal</p>
+    </footer>
+  </main>
+
+</body>
+</html>

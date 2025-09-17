@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emergencies | Ace Karts</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script defer src="scripts/scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Mobile Toggle -->
+  <button class="mobile-toggle" id="toggleSidebar"><i class="fas fa-bars"></i></button>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">🏁</div>
+    <ul>
+      <li><a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a></li>
+      <li><a href="introduction.html"><i class="fas fa-flag"></i> <span>Introduction</span></a></li>
+      <li><a href="morning-checks.html"><i class="fas fa-coffee"></i> <span>Morning Checks</span></a></li>
+      <li><a href="track-safety.html"><i class="fas fa-helmet-safety"></i> <span>Track Safety</span></a></li>
+      <li><a href="staff-conduct.html"><i class="fas fa-user-tie"></i> <span>Staff Conduct</span></a></li>
+      <li><a href="emergencies.html" class="active"><i class="fas fa-first-aid"></i> <span>Emergencies</span></a></li>
+      <li><a href="operations.html"><i class="fas fa-gears"></i> <span>Operations</span></a></li>
+      <li><a href="customer-service.html"><i class="fas fa-users"></i> <span>Customer Service</span></a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <header class="site-header">
+      <div class="banner-container">
+        <img src="images/logo1.svg" alt="Ace Karts Logo" class="banner-logo" />
+        <h1 class="banner-title">Emergency Procedures</h1>
+        <p class="banner-subtitle">React fast. Stay calm. Prioritize safety.</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="step-container">
+
+        <!-- Step 1 -->
+        <div class="step active">
+          <h2><i class="fas fa-car-crash"></i> Step 1: Mechanical Failure</h2>
+          <p>If a kart is smoking, leaking, or loses power:</p>
+          <ul>
+            <li>Signal with a red or black flag.</li>
+            <li>Radio marshals to slow and safely stop the session.</li>
+            <li>Direct driver off track to pit lane if possible.</li>
+            <li>Never allow guests to push or investigate karts themselves.</li>
+          </ul>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step">
+          <h2><i class="fas fa-user-injured"></i> Step 2: Medical Emergency</h2>
+          <p>If someone is injured:</p>
+          <ul>
+            <li>Immediately stop the session — use red flags.</li>
+            <li>Only trained staff provide first aid.</li>
+            <li>Contact supervisor and call 000 if serious.</li>
+            <li>Clear spectators and ensure safe perimeter.</li>
+            <li>Log incident in the official incident book after it's resolved.</li>
+          </ul>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step">
+          <h2><i class="fas fa-fire-extinguisher"></i> Step 3: Fire or Hazard</h2>
+          <p>In case of fire, fuel leak, or electrical danger:</p>
+          <ul>
+            <li>Evacuate the area.</li>
+            <li>Use extinguishers ONLY if safe and trained to do so.</li>
+            <li>Turn off all power if electrical.</li>
+            <li>Alert supervisor and emergency services.</li>
+            <li>Do not re-enter until cleared by manager or fire crew.</li>
+          </ul>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step">
+          <h2><i class="fas fa-door-open"></i> Step 4: Evacuation</h2>
+          <p>If ordered to evacuate:</p>
+          <ul>
+            <li>Guide guests to emergency exits or assembly points.</li>
+            <li>Stay calm, speak clearly, and keep groups together.</li>
+            <li>Do NOT run unless life is in immediate danger.</li>
+            <li>Never leave guests alone or allow re-entry.</li>
+          </ul>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="step">
+          <h2><i class="fas fa-check-circle"></i> Emergency Response Complete</h2>
+          <p>You now understand the correct responses to various emergencies on site.</p>
+          <p>
+            <a href="index.html" class="button">Return Home</a>
+            <a href="operations.html" class="button">Next Module</a>
+          </p>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="step-nav">
+          <button id="prevStep">Back</button>
+          <button id="nextStep">Next</button>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      &copy; 2025 Ace Karts Training Portal
+    </footer>
+  </main>
+
+</body>
+</html>

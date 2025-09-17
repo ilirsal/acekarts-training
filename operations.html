@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Operations | Ace Karts</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script defer src="scripts/scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Mobile Toggle -->
+  <button class="mobile-toggle" id="toggleSidebar"><i class="fas fa-bars"></i></button>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">🏁</div>
+    <ul>
+      <li><a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a></li>
+      <li><a href="introduction.html"><i class="fas fa-flag"></i> <span>Introduction</span></a></li>
+      <li><a href="morning-checks.html"><i class="fas fa-coffee"></i> <span>Morning Checks</span></a></li>
+      <li><a href="track-safety.html"><i class="fas fa-helmet-safety"></i> <span>Track Safety</span></a></li>
+      <li><a href="staff-conduct.html"><i class="fas fa-user-tie"></i> <span>Staff Conduct</span></a></li>
+      <li><a href="emergencies.html"><i class="fas fa-first-aid"></i> <span>Emergencies</span></a></li>
+      <li><a href="operations.html" class="active"><i class="fas fa-gears"></i> <span>Operations</span></a></li>
+      <li><a href="customer-service.html"><i class="fas fa-users"></i> <span>Customer Service</span></a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <header class="site-header">
+      <div class="banner-container">
+        <img src="images/logo1.svg" alt="Ace Karts Logo" class="banner-logo" />
+        <h1 class="banner-title">Daily Operations</h1>
+        <p class="banner-subtitle">Keep the race day running smoothly.</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="step-container">
+
+        <!-- Step 1 -->
+        <div class="step active">
+          <h2><i class="fas fa-calendar-check"></i> Step 1: Bookings & Schedule</h2>
+          <p>Start by checking the daily schedule:</p>
+          <ul>
+            <li>Use the booking software (e.g., TryBooking, Eventbrite).</li>
+            <li>Confirm group sizes, arrival times, and session types.</li>
+            <li>Note special requirements: exclusive track hire, birthday packages, etc.</li>
+          </ul>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step">
+          <h2><i class="fas fa-stopwatch"></i> Step 2: Session Flow</h2>
+          <p>Each session follows a structure:</p>
+          <ul>
+            <li>Briefing → Gear-up → Kart allocation → On-track session → Debrief.</li>
+            <li>Time each part. Don’t allow delays to stack up.</li>
+            <li>Communicate with staff via radio to stay in sync.</li>
+          </ul>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step">
+          <h2><i class="fas fa-random"></i> Step 3: Kart Rotation</h2>
+          <p>Rotate karts to avoid overheating and balance usage:</p>
+          <ul>
+            <li>Use a rotation chart or whiteboard in pit area.</li>
+            <li>If a kart is running rough or frequently used, rotate it out.</li>
+            <li>Report any faults immediately to supervisor.</li>
+          </ul>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step">
+          <h2><i class="fas fa-headphones-alt"></i> Step 4: Communication</h2>
+          <p>Radio comms are crucial:</p>
+          <ul>
+            <li>All staff must wear radios.</li>
+            <li>Keep messages clear and short.</li>
+            <li>Examples: "Group A karts out", "Red flag turn 3", "Session 4 ready".</li>
+          </ul>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="step">
+          <h2><i class="fas fa-check-circle"></i> Operations Complete</h2>
+          <p>You now understand how to manage daily operations efficiently.</p>
+          <p>
+            <a href="index.html" class="button">Return Home</a>
+            <a href="customer-service.html" class="button">Next Module</a>
+          </p>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="step-nav">
+          <button id="prevStep">Back</button>
+          <button id="nextStep">Next</button>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      &copy; 2025 Ace Karts Training Portal
+    </footer>
+  </main>
+
+</body>
+</html>
